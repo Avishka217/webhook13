@@ -1,5 +1,8 @@
+import ballerina/log;
+import wso2/choreo.sendemail;
 import ballerinax/trigger.github;
 import ballerina/http;
+
 
 configurable string toEmail = ?;
 
